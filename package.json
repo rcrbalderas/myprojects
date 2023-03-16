@@ -1,0 +1,20 @@
+{
+  "name": "ralph_portfolio",
+  "version": "1.0.0",
+  "description": "Web Development portfolio of Ralph Balderas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Ralph Balderas",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "gzippo": "^0.2.0"
+  }
+}

@@ -1,0 +1,314 @@
+.browserupgrade{
+    margin:.2em 0;
+    background:#ccc;
+    color:#000;
+    padding:.2em 0
+}
+body:after,body:before,body>:not(.pace){
+    -webkit-transition:opacity .4s ease-in-out;
+    transition:opacity .4s ease-in-out
+}
+body:not(.pace-done):after,body:not(.pace-done):before,body:not(.pace-done)>:not(.pace){
+    opacity:0
+}
+body{
+    padding-bottom:20px;
+    background:#221d1a
+}
+.container-fluid{
+    padding:0
+}
+nav.navbar{
+    padding:20px 0 0;
+    background:url(../images/header.jpg) no-repeat right top #f25c27;
+    border-radius:0;
+    border:0
+}
+.navbar-collapse{
+    padding-left:0!important;
+}
+.navbar-brand{
+    font:700 50px roboto mono;
+    color:#33291d;
+    padding:0 15px;
+    margin:0 0 35px
+}
+.navbar-brand:hover{
+    color:#33291d
+}
+.navbar-nav>li>a{
+    font:20px roboto mono;
+    color:#fff;
+    padding:15px 0;
+    margin:0 15px;
+    position:relative;
+    background:none!important
+}
+.navbar-nav>li>a:before{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:4px;
+    bottom:0;
+    left:0;
+    background-color:#33291d;
+    visibility:hidden;
+    -webkit-transform:scaleX(0);
+    transform:scaleX(0);
+    -webkit-transition:all .3s ease-in-out 0s;
+    transition:all .3s ease-in-out 0s
+}
+.nav>li>a.active:before,.nav>li>a:focus:before,.nav>li>a:hover:before{
+    visibility:visible;
+    -webkit-transform:scaleX(1);
+    transform:scaleX(1)
+}
+.footer,.header,.marketing{
+    padding-left:15px;
+    padding-right:15px
+}
+.header{
+    border-bottom:1px solid #e5e5e5
+}
+.header h3{
+    margin-top:0;
+    margin-bottom:0;
+    line-height:40px;
+    padding-bottom:19px
+}
+.footer{
+    padding-top:19px;
+    color:#777;
+    border-top:1px solid #e5e5e5
+}
+.container-narrow>hr{
+    margin:30px 0
+}
+.jumbotron{
+    text-align:center;
+    background:none;
+    border-radius:0!important;
+    min-height:612px;
+    margin:0;
+    padding-top: 50px;
+}
+.jumbotron .btn{
+    font-size:21px;
+    padding:14px 24px
+}
+.jumbotron h2{
+    font:64px roboto mono;
+    color:#fff
+}
+.content{
+    text-align:center;
+    background:#f25c27;
+    margin:0;
+    padding:100px 20px
+}
+.content p{
+    margin-top:28px;
+    font:44px roboto mono;
+    color:#221d1a
+}
+.downer{
+    display:block
+}
+.gallery{
+    text-align:center;
+    background:#221d1a;
+    padding:30px 20px
+}
+.gallery ul{
+    padding:0 10px
+}
+.gallery ul li{
+    display:inline-block;
+    position:relative
+}
+.gallery ul li a{
+    width:216px;
+    height:248px;
+    display:block;
+    padding:9px 0 0
+}
+.gallery ul li a img{
+    opacity:0;
+    width: 193px;
+    height: 224px;
+    margin-top: 3px;
+    transform: translate;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+.gallery ul li.fifth,.gallery ul li.fourth,.gallery ul li.seventh,.gallery ul li.sixth{
+    bottom:58px
+}
+.gallery ul li:last-child,.gallery ul li:nth-last-child(2),.gallery ul li:nth-last-child(3){
+    bottom:116px
+}
+.gallery ul li a:hover>img{
+    opacity:1;
+}
+.gallery ul li.first a{
+    background:url(../images/gal1.png) no-repeat center center
+}
+.gallery ul li.second a{
+    background:url(../images/gal2.png) no-repeat center center
+}
+.gallery ul li.third a{
+    background:url(../images/gal3.png) no-repeat center center
+}
+.gallery ul li.fourth a{
+    background:url(../images/gal4.png) no-repeat center center
+}
+.gallery ul li.fifth a{
+    background:url(../images/gal5.png) no-repeat center center
+}
+.gallery ul li.sixth a{
+    background:url(../images/gal6.png) no-repeat center center
+}
+.gallery ul li.seventh a{
+    background:url(../images/gal7.png) no-repeat center center
+}
+.gallery ul li.eighth a{
+    background:url(../images/gal8.png) no-repeat center center
+}
+.gallery ul li.ninth a{
+    background:url(../images/gal9.png) no-repeat center center
+}
+.gallery ul li.tenth a{
+    background:url(../images/gal10.png) no-repeat center center
+}
+.footer{
+    border:0;
+    text-align:center;
+    background:#f25c27;
+    padding:265px 20px
+}
+.footer a.emailer{
+    color:#33291d;
+    font:700 48px arial;
+    transition: .5s all;
+}
+.icon-bar{
+    background:#33291d;
+    width:35px!important;
+    height:5px!important
+}
+.img-responsive{
+    margin:0 auto
+}
+.row{
+    margin:0
+}
+#section1{
+    background:url(../images/forest.jpg) repeat-x center bottom;
+}
+#section1 .fp-tableCell{
+     vertical-align: top;
+}
+.outer-container{
+    background:#221D1A;
+    padding:26px 0 0;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+@media screen and (min-width:1440px){
+    .jumbotron {
+        padding-top: 100px;
+    }
+}
+@media screen and (min-width:1440px){
+    .jumbotron {
+        padding-top: 200px;
+    }
+}
+@media screen and (max-width:1000px){
+    .container{
+        max-width:1000px;
+        width:100%!important
+    }
+    .navbar-right{
+        float:none!imporant
+    }
+    .footer,.header,.marketing{
+        padding-left:0;
+        padding-right:0
+    }
+    .header{
+        margin-bottom:30px
+    }
+    .jumbotron{
+        border-bottom:0
+    }
+    .gallery ul{
+        padding:0
+    }
+    .gallery ul li.fifth,.gallery ul li.fourth,.gallery ul li.seventh,.gallery ul li.sixth,.gallery ul li:last-child,.gallery ul li:nth-last-child(2),.gallery ul li:nth-last-child(3){
+        bottom:0!important
+    }
+}
+@media screen and (max-width:980px){
+    .jumbotron{
+        min-height:auto
+    }
+    .content,.footer,.gallery,.jumbortron{
+        padding:50px 0
+    }
+    .jumbotron h2{
+        font-size:40px!important
+    }
+    .downer{
+        display:none
+    }
+    nav.navbar{
+        margin:0
+    }
+}
+@media screen and (max-width:780px){
+    .navbar-collapse{
+        padding-left:15px;
+    }
+    @media screen and (max-width:600px){
+        .footer a.emailer{
+            font-size:35px
+        }
+        .content p{
+            font-size:30px
+        }
+    }
+    @media screen and (max-width:530px){
+        .jumbotron h2{
+            font-size:24px!important
+        }
+    }
+    @media screen and (max-width:480px){
+        .navbar-brand{
+            padding:0;
+            display:block;
+            width:100%;
+            text-align:center;
+            margin-bottom:15px
+        }
+        .footer a.emailer{
+            font-size:26px
+        }
+    }
+    @media screen and (max-width:360px){
+        .navbar-brand{
+            font-size:44px
+        }
+        .content p{
+            font-size:26px
+        }
+    }
+    
